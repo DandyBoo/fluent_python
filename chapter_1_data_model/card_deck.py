@@ -8,7 +8,8 @@ from random import choice
 
 
 # Card = namedtuple('Card', 'rank suit')
-# в книге объект Card реализован с помощью namedtuple, но я реализую его как класс:
+# в книге объект Card реализован с помощью namedtuple,
+# но я реализую его с помощью dataclass:
 
 @dataclass(frozen=True, slots=True)
 class Card:
