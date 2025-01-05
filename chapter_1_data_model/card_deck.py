@@ -16,7 +16,7 @@ class Card:
     rank: str
     suit: str
 
-    def __repr__(self):
+    def __str__(self):
         return f'{self.rank} of {self.suit}'
 
 
